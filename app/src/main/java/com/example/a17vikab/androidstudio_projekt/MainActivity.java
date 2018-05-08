@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast toast = Toast.makeText(getApplication(), dataList.get(position).toastText(), Toast.LENGTH_LONG);
                 toast.show();
             }
+            
         });
 
     }
