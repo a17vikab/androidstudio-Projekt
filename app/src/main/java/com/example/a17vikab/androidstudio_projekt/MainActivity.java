@@ -72,6 +72,14 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        if(id == R.id.action_about)
+        {
+            Toast refreshed = Toast.makeText(this, "The app target audience is people who like to eat chocolate. Users can easily find where the cheapest chocolates are located in Sweden.", Toast.LENGTH_SHORT);
+            refreshed.show();
+
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
