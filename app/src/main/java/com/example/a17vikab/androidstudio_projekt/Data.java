@@ -59,7 +59,7 @@ public class Data {
     }
 
     public String toastText(){
-        return name + "(" + size + ") is made by " + company + " and costs " + cost +"kr at " + location + ". '" + auxdata + "'.";
+        return name + "(" + size + "g) is made by " + company + " and costs " + cost +"kr at " + location + ". '" + auxdata + "'.";
     }
 
     @Override

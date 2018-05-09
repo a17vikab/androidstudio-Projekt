@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast toast = Toast.makeText(getApplication(), dataList.get(position).toastText(), Toast.LENGTH_LONG);
                 toast.show();
             }
-            
+
         });
 
     }
@@ -158,8 +158,6 @@ public class MainActivity extends AppCompatActivity {
                     Data m = new Data(id, name, company, location, category, size, cost, auxdata);
 
                     dataList.add(m);
-
-
                 }
 
             } catch (JSONException e) {
